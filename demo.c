@@ -1,13 +1,13 @@
 #include<stdio.h>
 int main()
 {
-	if(10>20)
-		printf("one\n");
-	else if(10<40)
-		printf("two\n");
-	else if(80!=50)
-		printf("three\n");
-	else if(20>40)
-		printf("four\n");
+	int i;
+	for(i=1;i<=1000;i++)
+	{
+		printf("%i\n",i);
+		if(i==5)
+			break;
+	}
 	return 0;
 }
+

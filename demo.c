@@ -1,13 +1,28 @@
+/*
+Def: finding biggest number
+author: subbu
+version: 1.0
+Date Dev: 07/08/2023
+Loc: TCS, Bangalore
+*/
+
 #include<stdio.h>
 int main()
 {
-	int i;
-	for(i=1;i<=1000;i++)
-	{
-		printf("%i\n",i);
-		if(i==5)
-			break;
-	}
+	/*declaration*/
+	int x,y;
+	
+	//taking data from the keyboard
+	printf("Enter 2 integers\n");
+	scanf("%i%i",&x,&y);
+	
+	//logic to print biggest number
+	if(x==y)
+		printf("Equals");
+	else if(x>y)
+		printf("Biggest number %i",x);
+	else
+		printf("Biggest number %i",y);
 	return 0;
 }
 
